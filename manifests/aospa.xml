@@ -224,5 +224,8 @@
   <remove-project name="device/generic/goldfish-opengl"/>
   <remove-project name="platform/packages/apps/Launcher2"/>
 
+  <!-- YAOSP additions -->
+  <include name="manifests/yaosp.xml"/>
+
 </manifest>
 

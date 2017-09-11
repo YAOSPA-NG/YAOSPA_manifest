@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <!-- Manifest -->
+  <remove-project name="AOSPA/manifest" />
+  <project path="manifest" name="YAOSPA_manifest" remote="yaospa" groups="aospa" />
+
+  <!-- Build repositories -->
+  <remove-project name="AOSPA/android_build" />
+  <project path="build" name="YAOSPA_build" remote="yaospa" groups="aospa" >
+    <copyfile src="core/root.mk" dest="Makefile" />
+  </project>
+
+  <!-- Hardware -->
+  <project path="device/oneplus/oneplus3" name="YAOSPA_device_oneplus_oneplus3" remote="yaospa" groups="aospa" />
+
+  <project path="device/lge/bullhead" name="YAOSPA_device_lge_bullhead" remote="yaospa" groups="aospa" />
+
+  <project path="device/huawei/angler" name="YAOSPA_device_huawei_angler" remote="yaospa" groups="aospa" />
+
+  <!-- Kernel -->
+  <project path="kernel/oneplus/msm8996" name="YAOSPA_kernel_oneplus_msm8996" remote="yaospa" groups="aospa" />
+
+  <project path="kernel/lge/bullhead" name="YAOSPA_kernel_lge_bullhead" remote="yaospa" groups="aospa" />
+
+  <project path="kernel/huawei/angler" name="YAOSPA_kernel_huawei_angler" remote="yaospa" groups="aospa" />
+
+  <!-- Frameworks -->
+  <remove-project name="AOSPA/android_frameworks_av" />
+  <project path="frameworks/av" name="YAOSPA_frameworks_av" remote="yaospa" groups="aospa" />
+
+  <remove-project name="AOSPA/android_frameworks_base" />
+  <project path="frameworks/base" name="YAOSPA_frameworks_base" remote="yaospa" groups="aospa" />
+
+  <remove-project name="AOSPA/android_frameworks_native" />
+  <project path="frameworks/native" name="YAOSPA_frameworks_native" remote="yaospa" groups="aospa" />
+
+  <remove-project name="platform/frameworks/support" />
+  <project path="frameworks/support" name="YAOSPA_frameworks_support" remote="yaospa" groups="aospa" />
+
+  <!-- Packages -->
+  <remove-project name="platform/packages/apps/Calculator" />
+  <project path="packages/apps/Calculator" name="YAOSPA_packages_apps_Calculator" remote="yaospa" groups="aospa" />
+
+  <remove-project name="AOSPA/android_packages_apps_Contacts" />
+  <project path="packages/apps/Contacts" name="YAOSPA_packages_apps_Contacts" remote="yaospa" groups="aospa" />
+
+  <remove-project name="AOSPA/android_packages_apps_ContactsCommon" />
+  <project path="packages/apps/ContactsCommon" name="YAOSPA_packages_apps_ContactsCommon" remote="yaospa" groups="aospa" />
+
+  <remove-project name="AOSPA/android_packages_apps_PackageInstaller" />
+  <project path="packages/apps/PackageInstaller" name="YAOSPA_packages_apps_PackageInstaller" remote="yaospa" groups="aospa" />
+
+  <remove-project name="AOSPA/android_packages_apps_PhoneCommon" />
+  <project path="packages/apps/PhoneCommon" name="YAOSPA_packages_apps_PhoneCommon" remote="yaospa" groups="aospa" />
+
+  <remove-project name="AOSPA/android_packages_apps_Settings" />
+  <project path="packages/apps/Settings" name="YAOSPA_packages_apps_Settings" remote="yaospa" groups="aospa" />
+
+  <project path="packages/apps/SlimRecents" name="YAOSPA_packages_apps_SlimRecents" remote="yaospa" groups="aospa" />
+
+  <remove-project name="platform/packages/providers/DownloadProvider" />
+  <project path="packages/providers/DownloadProvider" name="YAOSPA_packages_providers_DownloadProvider" remote="yaospa" groups="aospa" />
+
+  <!-- System -->
+  <remove-project name="AOSPA/android_system_extras" />
+  <project path="system/extras" name="YAOSPA_system_extras" remote="yaospa" groups="aospa" />
+
+  <remove-project name="AOSPA/android_system_sepolicy" />
+  <project path="system/sepolicy" name="YAOSPA_system_sepolicy" remote="yaospa" groups="aospa" />
+
+  <!-- Vendor -->
+  <remove-project name="AOSPA/android_vendor_pa" />
+  <project path="vendor/pa" name="YAOSPA_vendor_pa" remote="yaospa" groups="aospa" />
+
+  <project path="vendor/yaosp" name="YAOSPA_vendor_yaosp" remote="yaospa" groups="aospa" />
+
+  <project path="vendor/oneplus" name="YAOSPA_vendor_oneplus" remote="yaospa" groups="aospa" />
+
+  <project path="vendor/lge/bullhead" name="YAOSPA_vendor_lge_bullhead" remote="yaospa" groups="aospa" />
+
+  <project path="vendor/huawei/angler" name="YAOSPA_vendor_huawei_angler" remote="yaospa" groups="aospa" />
+
+  <!-- Telephony -->
+  <remove-project name="AOSPA/android_packages_apps_Dialer" />
+  <project path="packages/apps/Dialer" name="YAOSPA_packages_apps_Dialer" remote="yaospa" groups="aospa" />
+
+  <remove-project name="AOSPA/android_packages_services_Telecomm" />
+  <project path="packages/services/Telecomm" name="YAOSPA_packages_services_Telecomm" remote="yaospa" groups="aospa" />
+
+  <remove-project name="AOSPA/android_packages_services_Telephony" />
+  <project path="packages/services/Telephony" name="YAOSPA_packages_services_Telephony" remote="yaospa" groups="aospa" />
+
+  <!-- Obsolete Packages -->
+  <remove-project name="AOSPA/android_packages_apps_ParanoidHub"/>
+
+</manifest>

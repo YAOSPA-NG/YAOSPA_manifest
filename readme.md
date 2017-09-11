@@ -1,3 +1,37 @@
+# YAOSPA - YAOSP based on Paranoid Android #
+
+YAOSP featureset on AOSPA ROM base.
+
+Last rebased on AOSPA repos as of 20170822 1359 CET.
+
+## Changelog ##
+
+You can find the latest changelogs [here](https://raw.githubusercontent.com/YAOSPA-NG/YAOSPA_vendor_yaosp/YAOSPA-NG-20170822/misc/docs/Changelog.txt).
+
+## Known issues ##
+
+You can find the currently known issues list [here](https://raw.githubusercontent.com/YAOSPA-NG/YAOSPA_vendor_yaosp/YAOSPA-NG-20170822/misc/docs/Known_issues.txt).
+
+## ROM Downloads (flashable ZIP files) ##
+
+If you don't want to compile yourself and just download a flashable zip of YAOSPA, you can find the downloads here :
+
+OnePlus 3/3t : [Android File Host](https://www.androidfilehost.com/?w=files&flid=214239)
+
+Angler (Nexus 6P) : [Android File Host](https://www.androidfilehost.com/?w=files&flid=214242)
+
+Bullhead (Nexus 5X) : [Android File Host](https://www.androidfilehost.com/?w=files&flid=214326)
+
+Shamu (Nexus 6) : [Android File Host](https://www.androidfilehost.com/?w=files&flid=214305)
+
+Hammerhead (Nexus 5) : [Android File Host](https://www.androidfilehost.com/?w=files&flid=214281)
+
+* General Note 1 : The use of SuperSU is not officially supported, please use [latest Magisk](https://forum.xda-developers.com/apps/magisk/official-magisk-v7-universal-systemless-t3473445).
+
+* General Note 2 : This ROM does NOT come with gapps, I personally use [opengapps nano](http://opengapps.org/) !
+
+* Hammerhead Note : The system partition is pretty filled up, opengapps nano won't flash, haven't tried pico. You may need to remove some system apps with a flashable "cleaner" to make space for gapps.
+
 # Paranoid Android #
 
 ## Setting up your machine ##
@@ -41,7 +75,7 @@ $ cd WORKSPACE
 
 # Install Repo in the created directory
 # Use a real name/email combination, if you intend to submit patches
-$ repo init -u https://github.com/AOSPA/manifest -b nougat-mr2
+$ repo init -u git@github.com:YAOSPA-NG/YAOSPA_manifest.git -b YAOSPA-NG-20170822
 ```
 
 ### Downloading the source tree ###
