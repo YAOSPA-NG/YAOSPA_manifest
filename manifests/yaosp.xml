@@ -11,12 +11,19 @@
     <copyfile src="core/root.mk" dest="Makefile" />
   </project>
 
+  <!-- Hardware -->
+  <remove-project name="AOSPA/android_hardware_broadcom_wlan" />
+  <project path="hardware/broadcom/wlan" name="YAOSPA_hardware_broadcom_wlan" remote="yaospa" groups="aospa" />
+
   <!-- Frameworks -->
   <remove-project name="AOSPA/android_frameworks_av" />
   <project path="frameworks/av" name="YAOSPA_frameworks_av" remote="yaospa" groups="aospa" />
 
   <remove-project name="AOSPA/android_frameworks_base" />
   <project path="frameworks/base" name="YAOSPA_frameworks_base" remote="yaospa" groups="aospa" />
+
+  <remove-project name="platform/frameworks/minikin" />
+  <project path="frameworks/minikin" name="YAOSPA_frameworks_minikin" remote="yaospa" groups="aospa" />
 
   <remove-project name="AOSPA/android_frameworks_native" />
   <project path="frameworks/native" name="YAOSPA_frameworks_native" remote="yaospa" groups="aospa" />
@@ -27,6 +34,12 @@
   <!-- Packages -->
   <remove-project name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calculator" name="YAOSPA_packages_apps_Calculator" remote="yaospa" groups="aospa" />
+
+  <remove-project name="platform/packages/apps/Messaging" />
+  <project path="packages/apps/Messaging" name="YAOSPA_packages_apps_Messaging" remote="yaospa" groups="aospa" />
+
+  <remove-project name="platform/packages/apps/Nfc" />
+  <project path="packages/apps/Nfc" name="YAOSPA_packages_apps_Nfc" remote="yaospa" groups="aospa" />
 
   <remove-project name="AOSPA/android_packages_apps_PackageInstaller" />
   <project path="packages/apps/PackageInstaller" name="YAOSPA_packages_apps_PackageInstaller" remote="yaospa" groups="aospa" />
@@ -41,6 +54,27 @@
 
   <!-- External -->
   <project path="external/busybox" name="YAOSPA_external_busybox" remote="yaospa" groups="aospa" />
+
+  <remove-project name="platform/external/libavc" />
+  <project path="external/libavc" name="YAOSPA_external_libavc" remote="yaospa" groups="aospa" />
+
+  <remove-project name="platform/external/libhevc" />
+  <project path="external/libhevc" name="YAOSPA_external_libhevc" remote="yaospa" groups="aospa" />
+
+  <remove-project name="platform/external/libvpx" />
+  <project path="external/libvpx" name="YAOSPA_external_libvpx" remote="yaospa" groups="aospa" />
+
+  <remove-project name="AOSPA/android_external_skia" />
+  <project path="external/skia" name="YAOSPA_external_skia" remote="yaospa" groups="aospa" />
+
+  <remove-project name="platform/external/sonivox" />
+  <project path="external/sonivox" name="YAOSPA_external_sonivox" remote="yaospa" groups="aospa" />
+
+  <remove-project name="AOSPA/android_external_sqlite" />
+  <project path="external/sqlite" name="YAOSPA_external_sqlite" remote="yaospa" groups="aospa" />
+
+  <remove-project name="platform/external/tremolo" />
+  <project path="external/tremolo" name="YAOSPA_external_tremolo" remote="yaospa" groups="aospa" />
 
   <!-- System -->
   <remove-project name="AOSPA/android_system_extras" />
