@@ -87,7 +87,9 @@
   <remove-project name="AOSPA/android_vendor_pa" />
   <project path="vendor/pa" name="YAOSPA_vendor_pa" remote="yaospa" groups="aospa" />
 
-  <project path="vendor/yaosp" name="YAOSPA_vendor_yaosp" remote="yaospa" groups="aospa" />
+  <project path="vendor/yaosp" name="YAOSPA_vendor_yaosp" remote="yaospa" groups="aospa" >
+    <copyfile src="misc/build_tools/build_rom.sh" dest="build_rom.sh" />
+  </project>
 
   <!-- Telephony -->
   <remove-project name="AOSPA/android_packages_apps_Dialer" />
