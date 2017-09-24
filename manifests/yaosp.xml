@@ -73,6 +73,9 @@
   <remove-project name="AOSPA/android_external_sqlite" />
   <project path="external/sqlite" name="YAOSPA_external_sqlite" remote="yaospa" groups="aospa" />
 
+  <remove-project name="platform/external/tinycompress" />
+  <project path="external/tinycompress" name="YAOSPA_external_tinycompress" remote="yaospa" groups="aospa" />
+
   <remove-project name="platform/external/tremolo" />
   <project path="external/tremolo" name="YAOSPA_external_tremolo" remote="yaospa" groups="aospa" />
 
