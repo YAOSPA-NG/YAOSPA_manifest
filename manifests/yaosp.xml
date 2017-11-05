@@ -79,6 +79,9 @@
   <remove-project name="platform/external/tremolo" />
   <project path="external/tremolo" name="YAOSPA_external_tremolo" remote="yaospa" groups="aospa" />
 
+  <remove-project name="platform/external/wpa_supplicant_8" />
+  <project path="external/wpa_supplicant_8" name="YAOSPA_external_wpa_supplicant_8" remote="yaospa" groups="aospa" />
+
   <!-- System -->
   <remove-project name="AOSPA/android_system_extras" />
   <project path="system/extras" name="YAOSPA_system_extras" remote="yaospa" groups="aospa" />
