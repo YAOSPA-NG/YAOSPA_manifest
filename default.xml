@@ -1,6 +1,10 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <manifest>
 
+  <remote  name="yaospa"
+           revision="YAOSPA-NG-20171011"
+           fetch="git://github.com/YAOSPA-NG/" />
+
   <remote  name="aosp"
            revision="refs/tags/android-7.1.2_r33"
            fetch="https://android.googlesource.com"/>
@@ -9,7 +13,7 @@
            fetch="ssh://git@git.aospa.co/AOSPA"/>
 
   <remote  name="aospa"
-           fetch=".."
+           fetch="https://github.com"
            review="gerrit.aospa.co"
            revision="nougat-mr2"/>
 
