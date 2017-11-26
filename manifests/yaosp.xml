@@ -35,6 +35,9 @@
   <remove-project name="platform/packages/apps/Calculator" />
   <project path="packages/apps/Calculator" name="YAOSPA_packages_apps_Calculator" remote="yaospa" groups="aospa" />
 
+  <remove-project name="AOSPA/android_packages_apps_Contacts" />
+  <project path="packages/apps/Contacts" name="YAOSPA_packages_apps_Contacts" remote="yaospa" groups="aospa" />
+
   <remove-project name="platform/packages/apps/Messaging" />
   <project path="packages/apps/Messaging" name="YAOSPA_packages_apps_Messaging" remote="yaospa" groups="aospa" />
 
