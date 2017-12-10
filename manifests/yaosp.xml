@@ -31,6 +31,9 @@
   <remove-project name="AOSPA/android_frameworks_native" />
   <project path="frameworks/native" name="YAOSPA_frameworks_native" remote="yaospa" groups="aospa" />
 
+  <remove-project name="AOSPA/android_frameworks_opt_telephony" />
+  <project path="frameworks/opt/telephony" name="YAOSPA_frameworks_opt_telephony" remote="yaospa" groups="aospa" />
+
   <remove-project name="platform/frameworks/support" />
   <project path="frameworks/support" name="YAOSPA_frameworks_support" remote="yaospa" groups="aospa" />
 
@@ -70,6 +73,9 @@
   <remove-project name="platform/external/libhevc" />
   <project path="external/libhevc" name="YAOSPA_external_libhevc" remote="yaospa" groups="aospa" />
 
+  <remove-project name="platform/external/libmpeg2" />
+  <project path="external/libmpeg2" name="YAOSPA_external_libmpeg2" remote="yaospa" groups="aospa" />
+
   <remove-project name="platform/external/libvpx" />
   <project path="external/libvpx" name="YAOSPA_external_libvpx" remote="yaospa" groups="aospa" />
 
@@ -89,11 +95,17 @@
   <project path="external/tremolo" name="YAOSPA_external_tremolo" remote="yaospa" groups="aospa" />
 
   <!-- System -->
+  <remove-project name="AOSPA/android_system_bt" />
+  <project path="system/bt" name="YAOSPA_system_bt" remote="yaospa" groups="aospa" />
+
+  <remove-project name="AOSPA/android_system_core" />
+  <project path="system/core" name="YAOSPA_system_core" remote="yaospa" groups="aospa" />
+
   <remove-project name="AOSPA/android_system_extras" />
   <project path="system/extras" name="YAOSPA_system_extras" remote="yaospa" groups="aospa" />
 
-  <remove-project name="AOSPA/android_system_bt" />
-  <project path="system/bt" name="YAOSPA_system_bt" remote="yaospa" groups="aospa" />
+  <remove-project name="AOSPA/android_system_netd" />
+  <project path="system/netd" name="YAOSPA_system_netd" remote="yaospa" groups="aospa" />
 
   <remove-project name="AOSPA/android_system_sepolicy" />
   <project path="system/sepolicy" name="YAOSPA_system_sepolicy" remote="yaospa" groups="aospa" />
