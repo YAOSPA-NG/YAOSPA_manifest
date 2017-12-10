@@ -12,6 +12,9 @@
   </project>
 
   <!-- Hardware -->
+  <remove-project name="AOSPA/android_hardware_ril" />
+  <project path="hardware/ril" name="YAOSPA_hardware_ril" remote="yaospa" groups="aospa" />
+
   <remove-project name="AOSPA/android_hardware_broadcom_wlan" />
   <project path="hardware/broadcom/wlan" name="YAOSPA_hardware_broadcom_wlan" remote="yaospa" groups="aospa" />
 
@@ -57,6 +60,9 @@
 
   <!-- External -->
   <project path="external/busybox" name="YAOSPA_external_busybox" remote="yaospa" groups="aospa" />
+
+  <remove-project name="platform/external/dnsmasq" />
+  <project path="external/dnsmasq" name="YAOSPA_external_dnsmasq" remote="yaospa" groups="aospa" />
 
   <remove-project name="platform/external/libavc" />
   <project path="external/libavc" name="YAOSPA_external_libavc" remote="yaospa" groups="aospa" />
@@ -109,6 +115,10 @@
 
   <remove-project name="AOSPA/android_packages_services_Telephony" />
   <project path="packages/services/Telephony" name="YAOSPA_packages_services_Telephony" remote="yaospa" groups="aospa" />
+
+  <!-- Core -->
+  <remove-project name="AOSPA/android_libcore" />
+  <project path="libcore" name="YAOSPA_libcore" remote="yaospa" groups="aospa" />
 
   <!-- Obsolete Packages -->
   <remove-project name="AOSPA/android_packages_apps_ParanoidHub"/>
