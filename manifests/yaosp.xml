@@ -25,6 +25,9 @@
   <remove-project name="AOSPA/android_frameworks_base" />
   <project path="frameworks/base" name="YAOSPA_frameworks_base" remote="yaospa" groups="aospa" />
 
+  <remove-project name="platform/frameworks/ex" />
+  <project path="frameworks/ex" name="YAOSPA_frameworks_ex" remote="yaospa" groups="aospa" />
+
   <remove-project name="platform/frameworks/minikin" />
   <project path="frameworks/minikin" name="YAOSPA_frameworks_minikin" remote="yaospa" groups="aospa" />
 
@@ -62,6 +65,9 @@
   <project path="packages/providers/DownloadProvider" name="YAOSPA_packages_providers_DownloadProvider" remote="yaospa" groups="aospa" />
 
   <!-- External -->
+  <remove-project name="platform/external/aac" />
+  <project path="external/aac" name="YAOSPA_external_aac" remote="yaospa" groups="aospa" />
+
   <project path="external/busybox" name="YAOSPA_external_busybox" remote="yaospa" groups="aospa" />
 
   <remove-project name="platform/external/dnsmasq" />
@@ -103,6 +109,9 @@
 
   <remove-project name="AOSPA/android_system_extras" />
   <project path="system/extras" name="YAOSPA_system_extras" remote="yaospa" groups="aospa" />
+
+  <remove-project name="AOSPA/android_system_media" />
+  <project path="system/media" name="YAOSPA_system_media" remote="yaospa" groups="aospa" />
 
   <remove-project name="AOSPA/android_system_netd" />
   <project path="system/netd" name="YAOSPA_system_netd" remote="yaospa" groups="aospa" />
