@@ -226,5 +226,8 @@
   <remove-project name="platform/packages/apps/Launcher2"/>
   <remove-project name="platform/packages/apps/SnapdragonCamera" />
 
+  <!-- YAOSP additions -->
+  <include name="manifests/yaosp.xml"/>
+
 </manifest>
 
